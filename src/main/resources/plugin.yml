@@ -1,0 +1,10 @@
+name: GangBang
+version: '${project.version}'
+main: dev.sussolino.gangbang.GangBang
+api-version: '1.19'
+softdepend:
+  - PacketEvents
+  - PlaceholderAPI
+commands:
+  gang:
+    description: /gangs

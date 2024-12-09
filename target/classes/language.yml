@@ -1,0 +1,71 @@
+prefix: '&3[&bGangs&3]&f'
+error:
+  prefix: '&c(!)'
+  command: '{error} Invalid Command {error}'
+  offline: '{error} Player offline {error}'
+  double: '{error} The value must be positive {error}'
+  you: "{error} You can't perform command to yourself {error}"
+
+gangs:
+  gui: '&bGang &7- &fInfo'
+  chat: "{prefix} &fChat&7: {state}"
+  help: |
+    &b―――― &3―――― &f――&3『 &bGang &3』&f―― &3―――― &b――――
+    &f/&bgang &3info &8- &7View all informations about the gang
+    &f/&bgang &3leave &8- &7Leave the gang
+    &f/&bgang &3disband &8- &7Disband your gang
+    &f/&bgang &3chat &8- &7Toggle the chat status for messaging with the gang
+
+    &f/&bgang &3invite &f(player) &8- &7Invite the player in gang
+    &f/&bgang &3set-owner &f(player) &8- &7Set a new owner
+    &f/&bgang &3kick &f(player) &8- &7Kick a member
+    &f/&bgang &3pex &f(player) &8- &7Pex a member to admin
+
+    &f/&bgang &3create &f(gang) &8- &7Create your gang
+    &f/&bgang &3join &f(gang) &8- &7Join in a gang
+    &b―――― &3―――― &f――&3『 &bGang &3』&f―― &3―――― &b――――
+  has-another-gang: '{error} The player is already in a gang {error}'
+  disband-instead-leave: '{error} You need to disband the gang or pex someone owner
+    first {error}'
+  no-perm: '{error} You don''t have enough permissions {error}'
+  not-invited: '{error} You don''t have any invite from this gang {error}'
+  not-exist: '{error} This gang not exist {error}'
+
+  kick: '{prefix} &fYou have kicked &7{player} &ffrom the gang!'
+  kick-announce: '{prefix} &7{player} &fhas kicked &8{target} &ffrom the gang'
+
+  create: '{prefix} &fGang created: &7{gang}'
+  disband: '{error} Gang disbanded {error}'
+
+  no-enough-money: "{error} The gang doesn't have enough money {error}"
+  balance: "{prefix} &7- &e{amount} &fꐺ"
+  deposit: "{prefix} Deposited&7: &e{amount} &fꐺ"
+  take: "{prefix} Taken&7: &e{amount} &fꐺ"
+
+  join: '{prefix} &fJoined in gang!'
+  join-announce: '{prefix} &7{player} &fis joined!'
+
+  leave: '{prefix} You have left the gang'
+  leave-announce: '{prefix} &7{player} &fhas left'
+
+  same-perms: "{error} You have the same perms of {player} {error}"
+  same-gang: '{error} You are in the same gang {error}'
+
+  already-pexed: '{error} The player is already pexed! {error}'
+  already-in-gang: '{error} You are already in a gang {error}'
+  target-not-in-gang: '{error} {player} is not in gang {error}'
+  not-owner: '{error} You need to be owner {error}'
+  not-in-gang: '{error} You are not in a gang {error}'
+
+  already-invited: '{prefix} You have already invited this player {error}'
+  invite-receiver: '{prefix} &fYou have received an invite&f! &7- &e[&6{gang}&e]'
+  invite-sender: '{prefix} &fInvite sent to &7{player}'
+
+  set-owner: '{prefix} &fYou are now the &4Owner&f!'
+  demoted-owner: '{prefix} &fYou are now &cAdmin&f!'
+  pex-receiver: '{prefix} &fYou got promoted at &e{rank}'
+  pex-sender: '{prefix} &fPromoted &7{player} &fat &e{rank}'
+
+  depex-receiver: '{prefix} &fYou got depexed at &e{rank}'
+  depex-sender: '{prefix} &fDexeped &7{player} &fat &e{rank}'
+

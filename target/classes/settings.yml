@@ -1,0 +1,9 @@
+groups:
+  - "DEFAULT:4"
+  - "STAFFER:5!CHEST_9"
+  - "VIP1:8!CHEST_9"
+  - "VIP2:10!CHEST_27"
+  - "VIP3:12!CHEST_36"
+  - "VIP4:14!CHEST_45"
+  - "VIP5:15!CHEST_54"
+  - "OWNER:1904!CHEST_54"
